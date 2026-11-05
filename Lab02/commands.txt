@@ -1,0 +1,18 @@
+
+# Name: Pushpendra Singh | Roll No: 2410303367 | Student ID: BCS2024376 | Assignment 2
+# Run inside git-practice/html-lab (the repo from Assignment 1).
+
+# ---- Task 1 ----
+git init --bare ../html-remote
+git remote add origin ../html-remote
+git remote -v
+
+# ---- Task 2 ----
+git status                    # check branch name first
+git push origin main          # if status says "On branch master", use: git push origin master
+
+# ---- Task 3 ----
+cd ..
+git clone html-remote html-copy
+cd html-copy
+git log --oneline

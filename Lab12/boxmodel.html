@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .Box1{
+            box-sizing: content-box;
+            width: 200px;
+            padding: 20px;
+            border: 5px solid black;
+        }
+        .Box2{
+            box-sizing: border-box;
+            width: 200px;
+            padding: 20px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="Box1">this is the first and content layout box</div>
+    <div class="Box2">this is the second and border layout box</div>
+</body>
+</html>

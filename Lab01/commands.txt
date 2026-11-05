@@ -1,0 +1,24 @@
+# Name: Pushpendra Singh | Roll No: 2410303367 | Student ID: BCS2024376 | Assignment 1
+# Run these inside the html-lab folder (in git-practice, NOT inside this repo).
+# Take a screenshot of the terminal output of each task.
+
+# ---- Task 1 ----
+mkdir html-lab
+cd html-lab
+git init
+git config --local user.name "Pushpendra Singh"
+git config --local user.email "pushpendrasingh8009636@gmail.com"
+git config user.name
+git config user.email
+
+# ---- Task 2 ----
+# create index.html with: <h1>Welcome to My HTML Lab</h1>
+git status
+git add index.html
+git commit -m "Add home page"
+
+# ---- Task 3 ----
+# add below the h1:  <h2>Next Meeting</h2>
+git add index.html
+git commit -m "Add next meeting heading"
+git log --oneline

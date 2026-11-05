@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable css</title>
+    <!-- <link rel="stylesheet" href="tokens.css"> -->
+    <style>
+        :root {
+            --main-color: #571d1d;
+            --accent-color: #39e66a;
+            --page-padding: 20px;
+        }
+        body{
+            color: var(--main-color);
+            padding: var(--page-padding);
+        }
+
+        h1 {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>The accent token component heading</h1>
+    <p>Core informational tracking parameter colored using system design variable.</p>
+    
+</body>
+</html>

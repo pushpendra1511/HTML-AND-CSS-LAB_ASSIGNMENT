@@ -1,0 +1,5 @@
+
+
+Errors fixed in attendance-fixed.html:
+1. <h1> was never closed -> added </h1> after "Attendance Report".
+2. "<p>Asha: 92%<p>" ended with an opening <p> -> changed to </p>.

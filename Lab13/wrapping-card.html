@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive Wrappable Components</title>
+    <style>
+        .flex-wrap-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 10px;
+        }
+        .itemcard{
+            background-color: rgba(255, 17, 255, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+            flex: 1 1 200px;
+            border: 1px solid #ceb4da;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stationery Shop</h1>
+    <div class = "flex-wrap-container">
+        <div class="itemcard">
+            <h3>Notebook</h3>
+            <p>Price: $60</p>
+        </div>
+        <div class="itemcard">
+            <h3>Pen</h3>
+            <p>Price: $15</p>
+        </div>
+        <div class="itemcard">
+            <h3>Bag</h3>
+            <p>Price: $350</p>
+        </div>
+        <div class="itemcard">
+            <h3>Book</h3>
+            <p>Price: $120</p>
+        </div>
+    </div>
+    
+</body>
+</html>

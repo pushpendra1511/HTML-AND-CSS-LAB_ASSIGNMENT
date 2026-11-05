@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #1d3557;
+    --accent-color: #e63946;
+    --heading-size: 16px;
+    --spacing: 2rem;
+}
+body{
+    color: var(--primary-color);
+    padding: var(--spacing);
+}
+h1{
+    font-size: var(--heading-size);
+    color: var(--accent-color);
+}

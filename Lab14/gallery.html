@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        .gallery-grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .photo-block{
+            background-color: rgba(25, 17, 255, 0.2);
+            border: 1px solid rgb(14, 8, 8);
+            padding: 15px 10px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Club Photo Gallery</h1>
+    <div class="gallery-grid">
+        <div class="photo-block">
+            <img src="photo1.jpg" alt="Photo1">
+            <p>Photo1</p>
+        </div>
+        <div class="photo-block" >
+            <img src="photo2.jpg" alt="Photo2">
+            <p>Photo2</p>
+        </div>
+        <div class="photo-block" >
+            <img src="photo3.jpg" alt="Photo3">
+            <p>Photo3</p>
+        </div>
+        <div class="photo-block" >
+            <img src="photo4.jpg" alt="Photo4">
+            <p>Photo4</p>
+        </div>
+        <div class="photo-block" >
+            <img src="photo5.jpg" alt="Photo5">
+            <p>Photo5</p>
+        </div>
+        <div class="photo-block" >
+            <img src="photo6.jpg" alt="Photo6">
+            <p>Photo6</p>
+        </div>
+    </div>
+    
+</body>
+</html>
